@@ -68,7 +68,7 @@ public class Main {
       // almacenados en la base de datos.
       while (res.hasNext()) {
         ponente p = (ponente) res.next(); // Recupera el siguiente objeto del conjunto.
-        System.out.println(p.toString());// Llama a un método para mostrar información.
+        System.out.println(p);// Llama a un método para mostrar información.
       }
 
       // Obtener todos los ponentes con query
@@ -86,7 +86,7 @@ public class Main {
       cons = con.execute();
       while (cons.hasNext()) {
         h = (ponente) cons.next();
-        System.out.println(h.toString());// Llama a un método para mostrar información.
+        System.out.println(h);// Llama a un método para mostrar información.
       }
       
 
