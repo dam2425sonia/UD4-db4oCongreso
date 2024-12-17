@@ -34,7 +34,7 @@ public class consultaNIF {
             // almacenados en la base de datos.
             while (res.hasNext()) {
                 ponente p = (ponente) res.next(); // Recupera el siguiente objeto del conjunto.
-                System.out.println(p.toString());// Llama a un método para mostrar información.
+                System.out.println(p);// Llama a un método para mostrar información.
             }
 
             // Obtener todos los ponentes con query
@@ -52,7 +52,7 @@ public class consultaNIF {
             cons = con.execute();
             while (cons.hasNext()) {
                 h = (ponente) cons.next();
-                System.out.println(h.toString());
+                System.out.println(h);
             }
 
         } catch (Exception e) {
