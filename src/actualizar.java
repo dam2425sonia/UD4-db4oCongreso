@@ -42,7 +42,7 @@ public class actualizar {
             res = cons.execute();
             while (res.hasNext()) {
                 p = (ponente) res.next(); // Obtiene el siguiente objeto de los resultados.
-                System.out.println(p.toString()); // Llama al método `visDatosEmpleados()` del objeto `Jefe` para mostrar la info
+                System.out.println(p); // Llama al método `visDatosEmpleados()` del objeto `Jefe` para mostrar la info
             }
         } catch (Exception e) {
             // TODO: handle exception
